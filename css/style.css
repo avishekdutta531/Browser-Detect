@@ -1,0 +1,70 @@
+body {
+    background-image: url("../img/nord_triangles.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.browser_info {
+    margin-top: 75px;
+    margin-bottom: 60px;
+    font-size: 45px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.info_box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #c05f6a;
+    color: #ffffff;
+}
+
+.info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.credit {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 270px) {
+    body {
+        background-size: auto;
+    }
+    .container {
+        width: auto;
+    }
+    .browser_info {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    .browser {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .info {
+        font-size: 25px;
+    }
+    .info_box {
+        align-self: center;
+        width: auto;
+    }
+}
